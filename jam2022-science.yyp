@@ -19,6 +19,7 @@
     {"id":{"name":"scr_collision_simple","path":"scripts/scr_collision_simple/scr_collision_simple.yy",},"order":2,},
     {"id":{"name":"oBlockBG","path":"objects/oBlockBG/oBlockBG.yy",},"order":7,},
     {"id":{"name":"scr_jump","path":"scripts/scr_jump/scr_jump.yy",},"order":4,},
+    {"id":{"name":"Sprite10","path":"sprites/Sprite10/Sprite10.yy",},"order":10,},
     {"id":{"name":"draw_circular_bar","path":"scripts/draw_circular_bar/draw_circular_bar.yy",},"order":2,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":1,},
     {"id":{"name":"sprGun","path":"sprites/sprGun/sprGun.yy",},"order":7,},
@@ -78,7 +79,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.3.0.625",
+    "IDEVersion": "2022.3.0.624",
   },
   "resourceVersion": "1.5",
   "name": "jam2022-science",
