@@ -1,4 +1,4 @@
-/// @description 
+/// @description Lift/Flung/Fall Physics
 if (lifted) {
 	x = mouse_x;
 	y = mouse_y;
@@ -11,3 +11,10 @@ if (lifted) {
 	x += lengthdir_x(clamp(fSpd, fSpdMin, fSpdMax), fDir);
 	y += lengthdir_y(clamp(fSpd, fSpdMin, fSpdMax), fDir);
 }
+if (fall) {
+	y += clamp(grav + fallCount, grav, gravMax);
+	fallCount += gravIncrease;
+}
+
+prev_x = x;
+prev_y = y;
