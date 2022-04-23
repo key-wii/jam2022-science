@@ -1,10 +1,7 @@
 {
-  "spriteId": {
-    "name": "sprSpawner",
-    "path": "sprites/sprSpawner/sprSpawner.yy",
-  },
+  "spriteId": null,
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -31,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oSpawner",
+  "name": "oEnParent",
   "tags": [],
   "resourceType": "GMObject",
 }

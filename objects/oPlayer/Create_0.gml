@@ -12,7 +12,7 @@ gun.owner = id;
 spd = 5;
 jumpSpd = 6;
 //I'd prefer higher gravity like 8 but it bugs out sometimes at higher numbers :(
-grav = 3;
+grav = 4;
 
 face = LEFT;
 gun.xx = 10 * scale;
