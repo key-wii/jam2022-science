@@ -1,6 +1,6 @@
 /// 8-directional movement
 function move_within_bounds(box_left, box_right, box_top, box_bot) {
-	var spaceH = 0;
+	var spaceH = sprite_width / 3.1;
 	var spaceV = 0;
 	var xx = 0; var yy = 0;
 
@@ -9,6 +9,10 @@ function move_within_bounds(box_left, box_right, box_top, box_bot) {
 	moveV += max(keyboard_check_direct(vk_down), keyboard_check_direct(ord("S")), 0);
 	if (moveV > 0) {
 		yy += spd / 2;
+		if (jumping) {
+			stop_jumping();
+			alarm_set(0, 0);
+		}
 	}
 	
 	//horizontal movement
@@ -30,8 +34,8 @@ function move_within_bounds(box_left, box_right, box_top, box_bot) {
 
 	//get position to move to
 	x = clamp(x + xx,
-		box_left + sprite_width / 2 + spaceH,
-		box_right - sprite_width / 2 - spaceH);
+		box_left + spaceH,
+		box_right + spaceH);
 	y = clamp(y + yy,
 		box_top + sprite_width / 2 + spaceV,
 		box_bot - sprite_width / 2 - spaceV);

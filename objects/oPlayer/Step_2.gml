@@ -1,3 +1,4 @@
+/// @description Movement
 if (jumpReady) jump();
 move_within_bounds(0, room_width, 0, room_height);
 
