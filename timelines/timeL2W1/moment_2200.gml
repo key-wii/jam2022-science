@@ -3,4 +3,6 @@ if (oCheese.hp == 7) _nW.txt = "Good job\nNext wave!";
 else if (oCheese.hp > 2) _nW.txt = "Good work\nNext wave!";
 else _nW.txt = "Next wave!";
 
-with (oController) alarm_set(0, 1);
+timeline_index = timeL2W2;
+timeline_position = 0;
+wave++;

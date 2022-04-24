@@ -5,3 +5,10 @@ with (spawnerR) {
 		en.sprite_index = sprBeeL;
 	}
 }
+with (spawnerR) {
+	var en = instance_create_layer(x, y, "Enemy", oEnWalker);
+	with (en) {
+		face = LEFT;
+		en.sprite_index = sprRoachL;
+	}
+}
