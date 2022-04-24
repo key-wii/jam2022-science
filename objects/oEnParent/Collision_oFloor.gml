@@ -1,7 +1,9 @@
 /// @description fall damage death
 
-if (point_distance(prev_x, prev_y, x, y) > deathSpd) instance_change(oSplat, true);
-else {
+if (fall || flung) {
+	if ((fall && grav + fallCount > deathSpd) || (flung && fSpd > deathSpd))
+		instance_change(oSplat, true);
 	fall = false;
 	flung = false;
+	grab_range = 2;
 }

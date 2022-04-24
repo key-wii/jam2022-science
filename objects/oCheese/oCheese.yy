@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "sprFloor3",
-    "path": "sprites/sprFloor3/sprFloor3.yy",
+    "name": "sprCheese",
+    "path": "sprites/sprCheese/sprCheese.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "oSolidParent",
-    "path": "objects/oSolidParent/oSolidParent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,7 +20,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oFloor3",
+  "name": "oCheese",
   "tags": [],
   "resourceType": "GMObject",
 }

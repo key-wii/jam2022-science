@@ -18,5 +18,7 @@ fallCount = 0;
 gravIncrease = .5;
 gravMax = 30;
 
+alreadyAte = false;
+
 prev_x = x;
 prev_y = y;
