@@ -8,6 +8,8 @@ fSpd = 0;
 fSpdMin = 8;
 fSpdMax = 18;
 
+circleRadius = sprite_width * 2;
+
 prevXs = ds_list_create();
 prevYs = ds_list_create();
 prevIndex = 0;

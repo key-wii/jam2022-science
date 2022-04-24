@@ -101,8 +101,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "enemies",
-    "path": "folders/Sprites/enemies.yy",
+    "name": "player",
+    "path": "folders/Sprites/player.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprRatJump",

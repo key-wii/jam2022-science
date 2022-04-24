@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprBeeR",
-    "path": "sprites/sprBeeR/sprBeeR.yy",
+    "name": "sprRoachR",
+    "path": "sprites/sprRoachR/sprRoachR.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,7 +26,6 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":11,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -35,7 +34,7 @@
     "path": "folders/Objects/enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oEnFlyer",
+  "name": "oEnRunner",
   "tags": [],
   "resourceType": "GMObject",
 }
