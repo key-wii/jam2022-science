@@ -9,7 +9,7 @@ spriteJump = sprRatJump;
 gun = instance_create_layer(x, y, "Gun", oGun);
 gun.owner = id;
 
-spd = 5;
+spd = 6;
 jumpSpd = 6;
 //I'd prefer higher gravity like 8 but it bugs out sometimes at higher numbers :(
 grav = 4;
