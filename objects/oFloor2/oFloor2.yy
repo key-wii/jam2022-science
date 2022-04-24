@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprPlatform",
-    "path": "sprites/sprPlatform/sprPlatform.yy",
+    "name": "sprFloor2",
+    "path": "sprites/sprFloor2/sprFloor2.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oBlock",
+  "name": "oFloor2",
   "tags": [],
   "resourceType": "GMObject",
 }
