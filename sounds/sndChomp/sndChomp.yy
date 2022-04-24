@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_saved.mp3",
-  "duration": 0.653061,
+  "soundFile": "sndChomp.wav",
+  "duration": 0.538503,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_saved",
+  "name": "sndChomp",
   "tags": [],
   "resourceType": "GMSound",
 }

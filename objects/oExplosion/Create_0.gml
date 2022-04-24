@@ -9,4 +9,5 @@ switch (ran) {
 }
 image_angle = irandom(359);
 
+audio_play_sound(sndExplode, false, false);
 instance_create_layer(x, y, layer, oSmoke);

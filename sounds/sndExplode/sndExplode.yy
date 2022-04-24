@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_saved.mp3",
-  "duration": 0.653061,
+  "soundFile": "sndExplode.wav",
+  "duration": 2.108934,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_saved",
+  "name": "sndExplode",
   "tags": [],
   "resourceType": "GMSound",
 }
