@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "room",
+    "path": "folders/Objects/room.yy",
   },
   "resourceVersion": "1.0",
   "name": "oCheese",

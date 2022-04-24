@@ -1,5 +1,5 @@
 /// @description 
-grab_range = 2;
+grab_range = 10;
 lift_range = 300 + sprite_width;
 lifted = false;
 flung = false;

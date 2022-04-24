@@ -28,6 +28,7 @@ if (_release || point_distance(x, y, oGun.x, oGun.y) >= lift_range) {
 		if (xx == 0 && yy == 0) {
 			fall = true;
 			fallCount = 0;
+			alarm_set(11, 10);
 			exit;
 		}
 		audio_play_sound(sndFling, false, false);
@@ -36,5 +37,6 @@ if (_release || point_distance(x, y, oGun.x, oGun.y) >= lift_range) {
 		fSpd = point_distance(x + xx, y + yy, x, y);
 		grab_range = 70;
 		alarm_set(0, 15);
+		alarm_set(11, 70);
 	}
 }

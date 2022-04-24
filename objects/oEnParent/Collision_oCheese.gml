@@ -6,4 +6,7 @@ if (!alreadyAte && !fall && !flung && !lifted) {
 		if (hp <= 0) game_over();
 	}
 	alreadyAte = true;
+	
+	y -= sprite_height / 2;
+	instance_change(oExplosion, true);
 }
