@@ -21,6 +21,7 @@ gravIncrease = .5;
 gravMax = 30;
 
 alreadyAte = false;
+deathImminent = false;
 
 prev_x = x;
 prev_y = y;
