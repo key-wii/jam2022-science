@@ -15,7 +15,7 @@ prevInMax = 5;
 fall = false;
 fallCount = 0;
 gravIncrease = .5;
-gravMax = 20;
+gravMax = 30;
 
 prev_x = x;
 prev_y = y;

@@ -27,6 +27,7 @@ if (_release || point_distance(x, y, oGun.x, oGun.y) > 300 + sprite_width) {
 			fallCount = 0;
 			exit;
 		}
+		audio_play_sound(sndFling, false, false);
 		flung = true;
 		fDir = point_direction(x + xx, y + yy, x, y);
 		fSpd = point_distance(x + xx, y + yy, x, y);

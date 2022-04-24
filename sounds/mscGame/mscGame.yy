@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "msc_1.wav",
+  "soundFile": "mscGame.wav",
   "duration": 11.7073126,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "msc_1",
+  "name": "mscGame",
   "tags": [],
   "resourceType": "GMSound",
 }
