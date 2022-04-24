@@ -5,4 +5,4 @@ image_yscale = scale;
 
 grav = 5;
 
-deathSpd = 1.75;
+deathSpd = 12;
