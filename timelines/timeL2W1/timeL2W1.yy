@@ -13,8 +13,8 @@
     {"moment":2200,"evnt":{"isDnD":false,"eventNum":2200,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
   ],
   "parent": {
-    "name": "Timelines",
-    "path": "folders/Timelines.yy",
+    "name": "lv2",
+    "path": "folders/Timelines/lv2.yy",
   },
   "resourceVersion": "1.0",
   "name": "timeL2W1",

@@ -14,8 +14,8 @@
     {"moment":2100,"evnt":{"isDnD":false,"eventNum":2100,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
   ],
   "parent": {
-    "name": "Timelines",
-    "path": "folders/Timelines.yy",
+    "name": "lv1",
+    "path": "folders/Timelines/lv1.yy",
   },
   "resourceVersion": "1.0",
   "name": "timeL1W2",
