@@ -19,7 +19,7 @@ with (spawnerR) {
 }
 
 with (spawnerR) {
-	var en = instance_create_layer(x, y - 32 - 450 - irandom(10), "Enemy", oEnFaster);
+	var en = instance_create_layer(x, y - 32 - 300 - irandom(10), "Enemy", oEnFaster);
 	with (en) {
 		face = LEFT;
 		en.sprite_index = sprBeeL;
