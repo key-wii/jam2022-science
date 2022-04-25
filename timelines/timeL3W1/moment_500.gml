@@ -9,3 +9,5 @@ with (spawnerR) {
 		en.sprite_index = sprRoachL;
 	}
 }
+var _nW = instance_create_layer(x, y, "UI", oNextWave);
+_nW.txt = "We’re dealing with\na code \"sharp\"";
