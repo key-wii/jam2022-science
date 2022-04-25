@@ -3,7 +3,7 @@ with (spawnerL) {
 	with (en) face = RIGHT;
 }
 with (spawnerR) {
-	var en = instance_create_layer(x, y - 32 - 25 - irandom(10), "Enemy", oEnFaster);
+	var en = instance_create_layer(x, y - 32 - 370, "Enemy", oEnFlyer);
 	with (en) {
 		face = LEFT;
 		en.sprite_index = sprBeeL;
