@@ -9,3 +9,6 @@ with (spawnerR) {
 		en.sprite_index = sprRoachL;
 	}
 }
+
+var _nW = instance_create_layer(x, y, "UI", oNextWave);
+_nW.txt = "Sorry about\nall those critters";
